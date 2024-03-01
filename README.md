@@ -41,8 +41,8 @@ I added a 2s sleep otherwise, sometimes Mayavi/VMD crashed for a large number cu
 Some example images:
 
 <div style="display:flex; justify-content: center;">
-    <img src="imgs/mayavi_screenshot.png" alt="Mayavi" style="margin-right: 20px;">
-    <img src="imgs/vmd_screenshot.png" alt="VMD">
+    <img src="imgs/mayavi_screenshot.png" alt="Mayavi" style="width: 400px; margin-right: 20px;">
+    <img src="imgs/vmd_screenshot.png" alt="VMD" style="width: 400px;">
 </div>
 
 `mcube.py` is not totally complete yet. You may have to tweak it for visualizing other molecules properly although it is quite easy :)) (Check the code). Use `vmdcube.py`. It's more complete and can render any molecule.
