@@ -9,7 +9,7 @@ I found a nice discussion about the Gaussian cube file format [here](http://sobe
 Here are two scripts, one using Mayavi (`mcube.py`) and the other using VMD (`vmdcube.py`).
 Mayavi is fairly simple to install according to its documentation however, it fails to build the wheel in my laptop. If you face the same issue, please follow this github [discussion](https://github.com/enthought/mayavi/issues/1232). I tested it in both Intel and Apple Silicon M2-max (os: Ventura) machines, and it works fine. One downside is that Mayavi is a bit slow, as it's a Python library on top of pyVTK.
 
-Using VMD is quite fast. Install the VMD first. The only requirement is that `VMDPATH` needs to specified in the environment in order to use the vmd script. e.g., in mac
+Using VMD is quite fast. Install the VMD first. The only requirement is that `VMDPATH` needs to be specified in the environment in order to use the vmd script. e.g., in mac
 
 ```shell
 export VMDPATH="/Applications/VMD\ 1.9.4a57-x86_64-Rev12.app/Contents/Resources/VMD.app/Contents/MacOS/VMD"
