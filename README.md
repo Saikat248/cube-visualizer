@@ -29,7 +29,7 @@ or
 vmdcube.py cube_file_name isosurface_value(optional)
 ```
 
-The default isosurface_value is set to 0.02. Set it accordingly.
+The default `isosurface_value` is set to 0.02. Set it accordingly.
 You can open multiple cube files in a directory with a basic shell loop. e.g.
 
 ```shell
@@ -49,4 +49,4 @@ Some example images:
 
 ## Related projects:
 
-- [vmd_cube](https://github.com/fevangelista/vmd_cube)
+- <a href="https://github.com/fevangelista/vmd_cube" target="_blank">vmd_cube</a>
